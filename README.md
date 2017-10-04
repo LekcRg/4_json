@@ -1,6 +1,7 @@
 # Prettify JSON
 
 [TODO. There will be project description]
+
 Output to console formatted JSON file in a human-readable species(PrettyPrint).
 
 # Quickstart
