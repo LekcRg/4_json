@@ -8,9 +8,7 @@ Example of script launch on Linux, Python 3.5:
 
 ```#!bash
 
-$ python3 pprint_json.py 
-
-<path to file>
+$ python3 pprint_json.py <path to file>
 
 {
    "firstName": "Иван",
