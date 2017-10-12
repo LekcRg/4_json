@@ -1,9 +1,10 @@
 import json
+import sys
 
 
-def load_data(path_to_file):
-    with open(path_to_file, "r") as f:
-        return json.load(f)
+def do_data_json(path_to_file):
+    with open(path_to_file, "r") as file:
+        return json.load(file)
 
 
 def pretty_print_json(json_data):
@@ -11,4 +12,4 @@ def pretty_print_json(json_data):
 
 
 if __name__ == '__main__':
-    print(pretty_print_json(load_data(input())))
+    print(pretty_print_json(do_data_json(sys.argv[1])))
