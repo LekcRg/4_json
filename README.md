@@ -6,7 +6,7 @@ Output to console formatted JSON file in a human-readable species(PrettyPrint).
 
 Example of script launch on Linux, Python 3.5:
 
-```#!bash
+```bash
 
 $ python3 pprint_json.py <path to file>
 
